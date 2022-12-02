@@ -24,10 +24,12 @@ main{
     border-radius: 5px;
     cursor: pointer;
     background-color: rgb(209, 209, 209);
+    color: black;
 }
 #start{
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
     background-color: rgb(130, 166, 255);
+    color: black;
 }
