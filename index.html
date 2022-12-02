@@ -13,11 +13,9 @@
         <h1>Regnespill</h1>
         <h2>Multiplikasjon</h2>
     </header>
-    <div class="timer">
-        <p id="brukerTidViser"></p>
-        <input type="range" id="brukerTid">
-        <button id="start">Start timer</button>
-        <p id="timerKlokke"></p>
+    <p id="trykkHjelp">Trykk her for hjelp</p>
+    <div class="hjelp">
+        <p>Velg tid på slideren og trykk på "start timer". Skriv inn svaret på mattestykket og trykk på "Sjekk svar" eller Enter. Så er det om å gjøre å klare flest mattestykker som mulig på den tiden du har valgt!</p>
     </div>
     <main id="main">
         <p id="poeng">Du har 0 poeng</p>
@@ -25,9 +23,14 @@
         <label for="svar">Svar: </label>
         <input type="number" id="svar">
         <button id="sjekk">Sjekk svar</button>
-
         <p id="konklusjon"></p>
     </main>
+    <div class="timer">
+        <p id="brukerTidViser"></p>
+        <input type="range" id="brukerTid">
+        <button id="start">Start timer</button>
+        <p id="timerKlokke"></p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

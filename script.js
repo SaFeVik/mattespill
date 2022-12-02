@@ -1,3 +1,6 @@
+let trykkHjelpEl = document.querySelector('#trykkHjelp')
+let hjelpEl = document.querySelector('.hjelp')
+
 let brukerTidViser = document.querySelector('#brukerTidViser')
 let brukerTid = document.querySelector('#brukerTid')
 let startEl = document.querySelector('#start')
@@ -9,6 +12,13 @@ let konklusjonEl = document.querySelector('#konklusjon')
 
 let a = Math.floor(Math.random() * 10)
 let b = Math.floor(Math.random() * 10)
+
+trykkHjelpEl.addEventListener('click', vis)
+
+function vis(){
+    hjelpEl.classList.toggle('vis')
+}
+
 
 let produkt = a*b
 let score = 0

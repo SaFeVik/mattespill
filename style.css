@@ -15,6 +15,25 @@ header{
 main{
     text-align: center;
 }
+
+#trykkHjelp{
+    cursor: pointer;
+    text-align: center;
+    color: rgb(162, 230, 171);
+}
+.hjelp{
+    display: none;
+    max-width: 300px;
+    margin-inline: auto;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 1px 20px;
+}
+.hjelp.vis{
+    display: block;
+}
+
 #svar{
     padding: 5px;
     border-radius: 5px;
