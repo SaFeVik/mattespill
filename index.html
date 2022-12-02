@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regnespill</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Regnespill</h1>
+        <h2>Multiplikasjon</h2>
+    </header>
+    <div class="timer">
+        <p id="brukerTidViser"></p>
+        <input type="range" id="brukerTid">
+        <button id="start">Start timer</button>
+        <p id="timerKlokke"></p>
+    </div>
+    <main id="main">
+        <p id="poeng">Du har 0 poeng</p>
+        <p id="oppgave">7 x 6 = ?</p>
+        <label for="svar">Svar: </label>
+        <input type="number" id="svar">
+        <button id="sjekk">Sjekk svar</button>
+
+        <p id="konklusjon"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
